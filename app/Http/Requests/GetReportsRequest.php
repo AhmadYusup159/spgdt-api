@@ -45,14 +45,4 @@ class GetReportsRequest extends FormRequest
             'end_date.date_format' => 'The end date must be in the format Y-m-d.',
         ];
     }
-
-    /**
-     * Get the data to be validated from the request.
-     *
-     * @return array
-     */
-    public function validated(): array
-    {
-        return parent::validated();
-    }
 }
